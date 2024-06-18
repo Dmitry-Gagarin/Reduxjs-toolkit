@@ -12,8 +12,6 @@ const usersSlise = createSlise({
   },
 });
 
-
-
 export const { addUser, removeUser } = usersSlice.actions;
 export const usersSelectors = userAdapter.getSelectors((state) => state.users);
 export default usersSlice.reducer;
